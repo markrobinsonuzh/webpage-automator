@@ -25,3 +25,4 @@ jobs:
         run: |
           echo "this is the second step"
           echo $PWD
+          lsb_release -a
